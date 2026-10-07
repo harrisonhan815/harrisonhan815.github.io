@@ -1,6 +1,6 @@
 # 韩咏烜 · 个人学术主页
 
-原生 HTML / CSS / JavaScript 中英文模板，无需 npm 或构建步骤。
+<!-- 原生 HTML / CSS / JavaScript 中英文模板，无需 npm 或构建步骤。
 
 ## 两个页面
 
@@ -48,4 +48,4 @@ python -m http.server 8000
 
 ## GitHub Pages
 
-这是仓库根目录的静态站点。提交并推送后，由仓库现有的 GitHub Pages 发布配置决定是否上线。本次编辑不包含提交、推送或发布。
+这是仓库根目录的静态站点。提交并推送后，由仓库现有的 GitHub Pages 发布配置决定是否上线。本次编辑不包含提交、推送或发布。 -->
