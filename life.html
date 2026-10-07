@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="韩咏烜的摄影、鸡尾酒与随记。">
+  <meta name="theme-color" content="#1e2b30">
+  <title>韩咏烜 · 业余时间</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="life.css">
+  <script src="life-content.js" defer></script>
+  <script src="script.js" defer></script>
+  <script src="life.js" defer></script>
+</head>
+<body class="life-page">
+  <a class="skip-link" href="#main" data-i18n="skip">跳转到正文</a>
+  <header class="site-header">
+    <a class="wordmark" href="index.html" data-page-link aria-label="Home">YH<span>.</span></a>
+    <div class="mode-switch" aria-label="页面 / Pages">
+      <a href="index.html" data-page-link data-i18n="modeWork">学术与工作</a>
+      <a href="life.html" data-page-link aria-current="page" data-i18n="modeLife">生活与爱好</a>
+    </div>
+    <nav aria-label="主导航" data-i18n-aria="navLabel">
+      <a href="#photography" data-i18n="photoNav">摄影</a>
+      <a href="#cocktails" data-i18n="drinksNav">鸡尾酒</a>
+      <a href="#notes" data-i18n="notesNav">随记</a>
+    </nav>
+    <div class="language-switch" role="group" aria-label="语言 / Language">
+      <button type="button" data-lang="zh" lang="zh-CN" aria-pressed="true">中文</button><span aria-hidden="true">/</span><button type="button" data-lang="en" lang="en" aria-pressed="false">EN</button>
+    </div>
+  </header>
+  <main id="main">
+    <section class="life-hero" id="home" aria-labelledby="life-title">
+      <div class="life-hero-copy">
+        <p class="life-kicker"><span class="station-light" aria-hidden="true"></span> YH—01 / PERSONAL STATION</p>
+        <h1 id="life-title"><span data-i18n="heroLine1">业余</span><br><em data-i18n="heroLine2">时间</em><span class="title-period" aria-hidden="true">●</span></h1>
+        <div class="hero-index">
+          <a href="#photography"><span class="channel-number">01</span><span data-i18n="photoNav">摄影</span><span aria-hidden="true">↗</span></a>
+          <a href="#cocktails"><span class="channel-number">02</span><span data-i18n="drinksNav">鸡尾酒</span><span aria-hidden="true">↗</span></a>
+          <a href="#notes"><span class="channel-number">03</span><span data-i18n="notesNav">随记</span><span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="station-code" aria-hidden="true"><span>YH / PRIVATE ORBIT</span><span>+ — · · — +</span></div>
+      </div>
+      <figure class="orbital-poster">
+        <img src="assets/orbital-poster.svg" alt="复古航天海报：火箭穿过星体轨道，掠过弧形地平线" data-i18n-alt="spaceAlt" width="900" height="1000" fetchpriority="high">
+        <figcaption aria-hidden="true"><span>ORBITAL STUDY / 001</span><span>YH—01</span></figcaption>
+      </figure>
+    </section>
+
+    <div class="life-divider" aria-hidden="true"><span>INDEX / 01—03</span><span class="telemetry-line"></span><span>PHOTO · BAR · LOG</span></div>
+
+    <section class="photo-section" id="photography" aria-labelledby="photo-title">
+      <div class="life-section-heading"><div><p class="life-kicker">01 / PHOTO ARCHIVE</p><h2 id="photo-title" data-i18n="photoTitle">摄影</h2></div><span class="section-instrument" aria-hidden="true">◉ ── 01 / 02</span></div>
+      <div class="photo-grid">
+        <figure class="photo-item photo-wide">
+          <button class="photo-open" type="button" aria-haspopup="dialog" aria-label="放大海边示意图" data-i18n-aria="openCoast">
+            <img src="assets/coast-study.svg" alt="海面与落日的风景插画" data-i18n-alt="coastAlt" width="900" height="1100" loading="lazy"><span class="image-mark" data-i18n="sampleArt">示意图</span><span class="expand-mark" aria-hidden="true">↗</span>
+          </button>
+          <figcaption><div><span class="photo-number">01</span><h3 data-i18n="photoOneTitle">海岸</h3></div><span data-i18n="photoMeta">[地点 · 日期]</span></figcaption>
+        </figure>
+        <figure class="photo-item photo-tall">
+          <button class="photo-open" type="button" aria-haspopup="dialog" aria-label="放大城市示意图" data-i18n-aria="openCity">
+            <img src="assets/city-study.svg" alt="城市窗影插画" data-i18n-alt="cityAlt" width="800" height="1000" loading="lazy"><span class="image-mark" data-i18n="sampleArt">示意图</span><span class="expand-mark" aria-hidden="true">↗</span>
+          </button>
+          <figcaption><div><span class="photo-number">02</span><h3 data-i18n="photoTwoTitle">城市</h3></div><span data-i18n="photoMeta">[地点 · 日期]</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="cocktail-section" id="cocktails" aria-labelledby="cocktail-title">
+      <div class="bar-copy"><p class="life-kicker">02 / BAR MODULE</p><h2 id="cocktail-title" data-i18n="barTitle">鸡尾酒</h2><div class="bar-instrument" aria-hidden="true"><div class="instrument-dial"></div><div class="instrument-scale"><span>01</span><i></i><span>02</span><i></i><span>03</span></div></div></div>
+      <figure class="drink-art"><img src="assets/cocktail-study.svg" alt="鸡尾酒杯与柑橘的静物插画" data-i18n-alt="drinkAlt" width="800" height="900" loading="lazy"><figcaption data-i18n="drinkCaption">02 / 示意图</figcaption></figure>
+      <div class="tasting-notes">
+        <details><summary><span><span class="note-number">01</span><span data-i18n="drinkNoteTitle">调酒记录</span></span><span class="detail-plus" aria-hidden="true">+</span></summary><div class="note-content"><p data-i18n="drinkNoteBody">[酒名] / [基酒] / [配比]</p><p data-i18n="drinkNoteFields">[香气] / [口感] / [评分]</p></div></details>
+        <details><summary><span><span class="note-number">02</span><span data-i18n="drinkNextTitle">待尝试</span></span><span class="detail-plus" aria-hidden="true">+</span></summary><div class="note-content"><p data-i18n="drinkNextBody">[酒款或配方]</p></div></details>
+      </div>
+    </section>
+
+    <section class="journal-section" id="notes" aria-labelledby="notes-title">
+      <div><p class="life-kicker">03 / LOGBOOK</p><h2 id="notes-title" data-i18n="notesTitle">随记</h2></div>
+      <div class="journal-card"><span class="journal-date" data-i18n="journalDate">[日期]</span><h3 data-i18n="journalTitle">[标题]</h3><p data-i18n="journalBody">[记录内容]</p><span class="journal-signature">YH.</span></div>
+    </section>
+    <a class="return-link" href="index.html" data-page-link><span aria-hidden="true">↖</span><span data-i18n="backWork">返回学术页</span></a>
+    <noscript><p class="noscript-note">中英文切换和图片放大需要启用 JavaScript。 / Enable JavaScript for language switching and image enlargement.</p></noscript>
+  </main>
+  <footer><span>© <span id="year">2026</span> <span data-i18n="name">韩咏烜</span></span><a href="#home" data-i18n="backTop">返回顶部 ↑</a></footer>
+  <dialog id="photo-dialog" aria-labelledby="dialog-title">
+    <form method="dialog"><button class="dialog-close" aria-label="关闭图片" data-i18n-aria="closePhoto">×</button></form>
+    <img id="dialog-image" alt=""><div class="dialog-caption"><h2 id="dialog-title"></h2><span data-i18n="sampleArt">示意图</span></div>
+  </dialog>
+</body>
+</html>

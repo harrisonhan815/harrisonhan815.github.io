@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000">
+  <defs>
+    <clipPath id="frame"><path d="M0 0h900v1000H0z"/></clipPath>
+    <pattern id="grid" width="75" height="75" patternUnits="userSpaceOnUse"><path d="M75 0H0v75" fill="none" stroke="#e6ddc8" stroke-opacity=".1"/></pattern>
+    <pattern id="halftone" width="7" height="7" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.1" fill="#192a30" opacity=".22"/></pattern>
+    <filter id="paper"><feTurbulence type="fractalNoise" baseFrequency=".78" numOctaves="3" stitchTiles="stitch"/><feColorMatrix type="saturate" values="0"/><feComponentTransfer><feFuncA type="linear" slope=".055"/></feComponentTransfer><feBlend in="SourceGraphic" mode="multiply"/></filter>
+  </defs>
+  <g clip-path="url(#frame)" filter="url(#paper)">
+    <path d="M0 0h900v1000H0z" fill="#1e2d34"/>
+    <path d="M0 0h900v1000H0z" fill="url(#grid)"/>
+    <circle cx="690" cy="278" r="208" fill="#d64b32"/>
+    <circle cx="690" cy="278" r="208" fill="url(#halftone)"/>
+    <path d="M-160 1130 526 394 487 339-310 735Z" fill="#d64b32"/>
+    <path d="M-38 982 502 382 474 361-162 786Z" fill="#e6ddc8"/>
+    <path d="M-6 952 492 391 499 403 30 1045Z" fill="#e2ad63"/>
+    <g fill="none" stroke="#e6ddc8">
+      <ellipse cx="528" cy="425" rx="353" ry="165" transform="rotate(-36 528 425)" stroke-width="2"/>
+      <ellipse cx="528" cy="425" rx="414" ry="209" transform="rotate(-36 528 425)" stroke-opacity=".43"/>
+      <circle cx="528" cy="425" r="293" stroke-dasharray="3 12" stroke-opacity=".6"/>
+    </g>
+    <g transform="translate(521 352) rotate(42)">
+      <path d="M-25 81-50 114-43 53-21 25M25 81l25 33-7-61-22-28" fill="#e4aa61"/>
+      <path d="M0-135Q-32-65-26 83H26Q32-65 0-135Z" fill="#e6ddc8"/>
+      <path d="M0-135Q-5-18 0 83H26Q32-65 0-135Z" fill="#a8b7b1"/>
+      <path d="M-25 36h50v17h-50Z" fill="#d64b32"/>
+      <circle cy="-26" r="12" fill="#1e2d34" stroke="#e4aa61" stroke-width="4"/>
+      <path d="M-15 85 0 143 15 85Z" fill="#e6ddc8"/>
+      <path d="M0-135v-29" stroke="#e6ddc8" stroke-width="2"/>
+    </g>
+    <g transform="translate(237 279) rotate(-25)" stroke="#e6ddc8" stroke-width="3">
+      <path d="M0 0-76-44M0 0 56-65M0 0 52 73M0 0-50 89"/>
+      <circle r="27" fill="#a8b7b1"/><path d="M-17-21q-15 30 17 48" fill="none" stroke="#1e2d34" stroke-width="2"/>
+      <circle cx="-7" cy="-8" r="7" fill="#e6ddc8" stroke="none"/>
+    </g>
+    <g fill="#e6ddc8"><circle cx="126" cy="128" r="3"/><circle cx="403" cy="109" r="2"/><circle cx="762" cy="590" r="3"/><circle cx="346" cy="653" r="3"/><circle cx="111" cy="561" r="2"/><circle cx="792" cy="85" r="3"/><circle cx="853" cy="433" r="2"/></g>
+    <g stroke="#e6ddc8" stroke-width="2"><path d="M360 216h20m-10-10v20M750 480h24m-12-12v24M140 408h14m-7-7v14"/></g>
+    <circle cx="731" cy="633" r="8" fill="#e4aa61"/>
+    <path d="M-130 1020Q292 673 1000 797v270H-130Z" fill="#e6ddc8"/>
+    <path d="M-130 1020Q292 673 1000 797" fill="none" stroke="#e2ad63" stroke-width="12"/>
+    <path d="M-130 1020Q292 673 1000 797v270H-130Z" fill="url(#halftone)"/>
+    <g fill="none" stroke="#1e2d34" stroke-opacity=".3"><path d="M0 949q421-200 900-111M0 993q413-199 900-106M184 837q141 58 112 163M445 781q160 84 133 219M669 778q165 72 147 222"/></g>
+    <g font-family="monospace" font-size="15" letter-spacing="3" fill="#e6ddc8"><text x="45" y="55">YH / ORBITAL STUDY</text><text x="735" y="55">01—03</text><text x="53" y="684" transform="rotate(-90 53 684)">PERSONAL STATION</text></g>
+    <g font-family="Arial,sans-serif" font-weight="900" fill="#1e2d34"><text x="556" y="933" font-size="82" letter-spacing="-5">YH—01</text><text x="570" y="962" font-size="11" letter-spacing="3">PHOTO / BAR / LOG</text></g>
+    <g stroke="#e6ddc8" stroke-width="2"><path d="M20 85V20h65M815 20h65v65M20 910v70h65M815 980h65v-65"/></g>
+  </g>
+</svg>
