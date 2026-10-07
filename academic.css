@@ -12,10 +12,10 @@
 .academic-page main,
 .academic-page .site-header,
 .academic-page footer { width: min(940px, calc(100% - 80px)); }
-.academic-page .site-header { gap: 24px; padding: 18px 0; border-bottom: 1px solid #e5e7eb; }
+.academic-page .site-header { justify-content: flex-end; gap: 24px; padding: 18px 0; border-bottom: 1px solid #e5e7eb; }
 .academic-home { font-size: 12px; font-weight: 600; }
 .academic-page .footer-links { display: flex; flex-wrap: wrap; gap: 22px; }
-.academic-page .personal-footnote { color: #686d74; text-decoration: none; }
+.academic-page .personal-footnote { color: #686d74; text-decoration: none; border: 0; padding: 0; background: none; font: inherit; cursor: pointer; }
 .academic-page .personal-footnote:hover { color: var(--accent); text-decoration: underline; text-underline-offset: 3px; }
 .academic-page .mode-switch { padding: 0; gap: 20px; border: 0; border-radius: 0; font-size: 12px; }
 .academic-page .mode-switch a { border-radius: 0; padding: 4px 0; color: var(--muted); }
@@ -75,6 +75,8 @@ html[lang="en"] .academic-page h1 { font-family: Georgia, "Times New Roman", ser
 .academic-page .skill-list dd { margin: 0; }
 .academic-page .publication,.academic-page .project,.academic-page .patent { break-inside: avoid; }
 .academic-page footer { margin-top: 40px; padding: 18px 0 25px; font-size: 10px; }
+.construction-toast { position: fixed; z-index: 100; top: 50%; left: 50%; transform: translate(-50%,-50%); max-width: calc(100vw - 40px); padding: 18px 30px; background: #263341; color: #fff; border-radius: 5px; box-shadow: 0 8px 28px #0002; font-size: 14px; text-align: center; pointer-events: none; }
+.construction-toast[hidden] { display: none; }
 @media(max-width:850px) {
   .academic-page .site-header nav { order: 3; width: 100%; margin-left: 0; justify-content: flex-start; }
   .academic-page .language-switch { margin-left: auto; }
@@ -94,7 +96,7 @@ html[lang="en"] .academic-page h1 { font-family: Georgia, "Times New Roman", ser
 }
 @media print {
   @page { margin: 16mm; }
-  .academic-page .site-header,.academic-page footer,.academic-page .noscript-note { display: none; }
+  .academic-page .site-header,.academic-page footer,.academic-page .noscript-note,.construction-toast { display: none; }
   .academic-page main { width: 100%; }
   .academic-page .cv-header { display: grid; grid-template-columns: 1fr auto; padding: 0 0 18px; }
   .academic-page .content-section { padding-top: 17px; break-inside: auto; }
